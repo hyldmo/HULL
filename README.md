@@ -186,6 +186,7 @@ This will essentially "pass-through" URLs accessed at your Shopify Store to your
 ### Sanity (Back End)
 `sanity start` in the `/studio` folder to start the studio locally
    - Your Sanity Studio should be running on [http://localhost:3333](http://localhost:3333)
+   - Make sure `api.projectId` in `studio/sanity.json` matches `SANITY_PROJECT_ID` in your `.env` file 
 
 <br />
 
